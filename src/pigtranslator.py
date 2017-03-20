@@ -3,7 +3,7 @@ def Translate(sentence):
        #based on the rules set in wikipedia
        
        #all possible double consonants
-       lst = ['sh', 'gl', 'ch', 'ph', 'tr', 'br', 'fr', 'bl', 'gr', 'st', 'sl', 'cl', 'pl', 'fl']
+       lst = ['sh', 'gl', 'ch', 'ph', 'tr', 'br', 'fr', 'bl', 'gr', 'st', 'sl', 'cl', 'pl', 'fl', 'th']
        sentence = sentence.split()
        for k in range(len(sentence)):
                i = sentence[k]
